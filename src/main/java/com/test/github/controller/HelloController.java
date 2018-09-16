@@ -9,7 +9,9 @@ public class HelloController {
     @RequestMapping("hello.do")
     public String hello() {
 
+
         System.out.println("say hello");
+        System.out.println("after clone, add new print");
         return "hello hello";
 
 
